@@ -1,0 +1,77 @@
+.navbar {
+    box-shadow: 2px 2px 5px #000;
+    opacity: 0.9;
+  }
+  
+  .navbar .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  #bandera-amarillo:hover
+  {
+    color: #f4f734;
+  }
+  
+  #bandera-azul:hover
+  {
+    color: #1289de;
+  }
+  
+  #bandera-rojo:hover
+  {
+    color: #ed291f;
+  }
+
+  .main-header {
+    position: relative;
+    background: url(../img/background3.jpg);
+    background-size: cover;
+    
+  }
+  
+  .background-overlay {
+    background: rgba(48, 51, 107,.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .form-control 
+  {
+      border-radius: 1px;
+  }
+
+  .team
+  {
+      background: #5315cf;
+  }
+
+  textarea
+  {
+  min-height: 150px;
+  max-height: 350px;
+  }
+
+  .zoom:hover
+  {
+    transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 990px)
+{
+     .zoom{
+              display: none;
+   }
+}
+
+#Copyright
+{
+  background: #000;
+  color: white;
+}
+
+#Redes
+{
+  
+}
